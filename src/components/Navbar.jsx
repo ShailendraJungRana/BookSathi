@@ -24,20 +24,20 @@ const Navbar = () => {
                 <img src={logo} alt='' className=""/>
             </a>
             {/* Showing the navitem using map */}
-            <ul className='md:flex space-x-12 hidden '>
+            <ul className='md:flex space-x-12 hidden'>
                 {
                 navItems.map(({name,path}) => <a key= {name} href={path} className="block hover:text-gray-300 mt-4s">{name}</a>
                 )}
             </ul>
           </div>
             {/* icons and signup */}
-            <div className='space-x-12 hidden md:flex items-center'>
+            <div className='space-x-12 hidden md:flex items-center '>
                 <button className='bg-white border border-dark py-2 px-4 text-black hidden lg:flex items-center hover:text-white hover:bg-black duration-300 transition-all rounded-xl  '>Sign In</button>
                 <button className='bg-black border border-dark text-white border-xl py-2 px-4 transition-all duration-300 hover:bg-white hover:text-black rounded-xl'>Create Account</button>
             </div>
             {/* Menu btn only on mobile */}
             <div className='md:hidden'>
-                <button onClick={toggleMenu} className="text-white focus:outline-none focus:text-gray-300  " >
+                <button onClick={toggleMenu} className="text-white focus:outline-none focus:text-gray-300   " >
                     {
                     isMenuOpen ? (<FaXmark className='w-7 h-7 text-dark'/>): (<FaBars className='w-7 h-7 text-dark'/>)
                     }
