@@ -17,14 +17,14 @@ const Navbar = () => {
         setIsMenuOpen(!isMenuOpen);
     }
   return (
-    <nav className='bg-white md:px-14 p-4 max-w-screen-2xl mx-auto text-black fixed top-0 right-0 left-0'> 
+    <nav className='bg-white md:px-14 p-4 max-w-screen mx-auto text-black fixed top-0 right-0 left-0'> 
         <div className='text-xl container mx-auto flex justify-between items-center font-medium'>
           <div className='flex space-x-14 items-center '>
             <a href='' className='text-2xl font-semibold flex  items-center space-x-3 text-dark'>
                 <img src={logo} alt='' className=""/>
             </a>
             {/* Showing the navitem using map */}
-            <ul className='md:flex space-x-12 hidden'>
+            <ul className='md:flex space-x-10 hidden '>
                 {
                 navItems.map(({name,path}) => <a key= {name} href={path} className="block hover:text-gray-300 mt-4s">{name}</a>
                 )}

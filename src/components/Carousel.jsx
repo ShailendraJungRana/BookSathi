@@ -25,11 +25,11 @@ const Carousel = () => {
 
   return (
     <div className='overflow-hidden relative '>
-    <div className= {`w-full mt-28 flex transition ease-out duration-300 translate-x-[-${current*100}%]`} style={{
+    <div className= {` mt-28 flex transition ease-out duration-300 translate-x-[-${current*100}%]`} style={{
       transform: `translateX(-${current * 100}%)`,
     }}>
       {slides.map((slide, index) => (
-        <img key={index} src={slide} alt={`Slide ${index + 1}`} />
+        <img  key={index} src={slide} alt={`Slide ${index + 1}`} />
       ))}
     </div>
     {/* arrow for slide */}

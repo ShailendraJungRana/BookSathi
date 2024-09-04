@@ -1,7 +1,7 @@
 import './App.css'
 import Carousel from './components/Carousel'
 import Navbar from './components/Navbar'
-
+import Search from './components/Search'
 
 function App() {
 
@@ -9,7 +9,7 @@ function App() {
     <>
       <Navbar/>
       <Carousel/>
-
+      <Search/>
     </>
   )
 }
