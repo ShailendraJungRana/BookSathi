@@ -3,6 +3,7 @@ import Carousel from './components/Carousel'
 import Navbar from './components/Navbar'
 import Search from './components/Search'
 import Cards from './components/Cards'
+import PopularBooks from './components/PopularBooks'
 function App() {
 
   return (
@@ -11,6 +12,7 @@ function App() {
       <Carousel/>
       <Search/>
       <Cards/>
+      <PopularBooks/>
     </>
   )
 }
