@@ -34,7 +34,7 @@ const PopularBooks = () => {
     <h3 className="text-[24px] font-semibold text-dark mb-6">Popular this month</h3>
     
     {/* Card Grid */}
-    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+    <div className="grid grid-cols-1 sm:grid-cols-2 justify-items-center md:grid-cols-4 ">
       {popularBooks.map((book, index) => (
         <div key={index} className="bg-white shadow-lg rounded-lg overflow-hidden border border-gray-200">
           {/* Book Image */}
@@ -61,6 +61,7 @@ const PopularBooks = () => {
               </div>
             </div>
           </div>
+       
         </div>
       ))}
     </div>

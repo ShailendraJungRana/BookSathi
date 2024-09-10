@@ -14,7 +14,7 @@ const Cards = () => {
       <h2 className="text-center text-4xl font-bold text-orange-600 mb-8">Book Categories</h2>
 
       {/* Card Grid */}
-      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 w-max-screen gap-0 justify-items-center cursor-pointer">
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5  justify-items-center cursor-pointer">
         {categories.map((category) => (
           <div
             key={category.name}
