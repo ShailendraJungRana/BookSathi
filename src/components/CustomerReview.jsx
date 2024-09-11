@@ -22,7 +22,7 @@ const CustomerReview = () => {
               {/* First Review */}
               <div className="flex justify-center">
                 <div className="bg-white p-6 rounded-lg shadow-md">
-                  <p className="text-gray-600 mb-4">
+                  <p className="text-gray-600  mb-4">
                     "The request book feature is a game-changer! I managed to get a book I've been looking for ages. Excellent service!"
                   </p>
                   <div className="flex items-center">
@@ -39,9 +39,9 @@ const CustomerReview = () => {
               </div>
 
               {/* Second Review */}
-              <div className="flex justify-center mt-8">
+              <div className="flex justify-center  mt-8">
                 <div className="bg-white p-6 rounded-lg shadow-md">
-                  <p className="text-gray-600 mb-4">
+                  <p className="text-gray-600  mb-4">
                     "The thrift book service is fantastic! I found some rare gems at unbeatable prices. Highly recommend!"
                   </p>
                   <div className="flex items-center">

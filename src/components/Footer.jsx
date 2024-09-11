@@ -20,8 +20,8 @@ const Footer = () => {
             <div className='flex-col space-y-2'>
             <h2 className="font-bold text-xl mb-4">Contact</h2>
             <p className="text-sm ">kitabsathi@gmail.com</p>
-            <p className="text-sm">+977 9846814333</p>
-            <p className="text-sm">Rautahat, Nepal</p>
+            <p className="text-sm">+977 9866141333</p>
+            <p className="text-sm">Butwal, Nepal</p>
             </div>
             <div className="mt-4 flex space-x-4 ">
               <a href="#" className="text-blue-500 hover:text-blue-700">
